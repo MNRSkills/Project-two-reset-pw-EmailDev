@@ -17,6 +17,9 @@
         <mj-button href="https://example.com" align="center">
           Click Me
         </mj-button>
+        <mj-button href="https://example.com" align="center" background-color="#F45E43">
+          Click Me
+        </mj-button> 
       </mj-column>
     </mj-section>
   </mj-body>
