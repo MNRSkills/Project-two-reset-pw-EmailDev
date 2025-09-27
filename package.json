@@ -1,0 +1,22 @@
+{
+  "name": "project-two-reset-pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "live-server dist",
+  "build": "mjml src/*.mjml -o dist && node inline.js",
+  "watch": "mjml -w src -o dist",
+  "start": "concurrently \"npm:watch\" \"npm:dev\""
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "juice": "^11.0.1",
+    "live-server": "^1.2.2",
+    "mjml": "^4.16.1"
+  }
+}

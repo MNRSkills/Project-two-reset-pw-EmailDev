@@ -1,0 +1,23 @@
+<mjml>
+  <mj-head>
+    <mj-preview>My First Email</mj-preview>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold">
+          Hello Email Raider Mack 👋
+        </mj-text>
+        <mj-text align="center" font-size="16px" color="#555555">
+          Welcome to the world of MJML!
+        </mj-text>
+        <mj-text align="center">
+          IS this real
+        </mj-text>
+        <mj-button href="https://example.com" align="center">
+          Click Me
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
