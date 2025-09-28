@@ -22,5 +22,25 @@
         </mj-button> 
       </mj-column>
     </mj-section>
+    <mj-section background-color="#fafafa">
+      <mj-column background-color="#f0f0f0" width="500px">
+      <mj-text align="center" font-size="18px" font-weight="bold">
+        Another Section
+      </mj-text>
+      </mj-column>
+      
+    </mj-section>
+   <!-- createa a section with a column that will hold another image, text, and button -->
+    <mj-section background-color="#ffffff" padding="20px">
+   <mj-column width="500px" background-color="#e0e0e0" padding="20px" >
+    <mj-image width="100px" src="https://via.placeholder.com/100" alt="Placeholder Image" />
+    <mj-text align="center" font-size="16px" color="#555555">
+      This is a placeholder image.
+    </mj-text>
+    <mj-button href="https://example.com" align="center" background-color="#4CAF50">
+      Learn More
+    </mj-button>
+   </mj-column>
+</mj-section>
   </mj-body>
 </mjml>
